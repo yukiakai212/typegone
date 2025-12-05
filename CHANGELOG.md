@@ -1,5 +1,11 @@
 # typegone
 
+## 1.2.2
+
+### Patch Changes
+
+- 85beb04: Security patch release
+
 ## 1.2.1
 
 ### Patch Changes
