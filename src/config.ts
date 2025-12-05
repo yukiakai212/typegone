@@ -23,10 +23,12 @@ export async function loadTypegoneConfig(): Promise<TypegoneConfig> {
   if (!configPath || !fs.existsSync(configPath)) {
     throw new Error('❌ typegone.config.js not found in project root.');
   }
+  const _dirname = dirname();
+  if (!_dirname) throw new Error('Cant resolve project path');
   let configFile = configPath;
   let tempfile;
   if (path.extname(configPath) === '.ts') {
-    tempfile = path.join(dirname(), Math.round(Math.random() * 10e8) + '_build.temp.cjs');
+    tempfile = path.join(_dirname, Math.round(Math.random() * 10e8) + '_build.temp.cjs');
     buildSync({
       entryPoints: [configPath],
       outfile: tempfile,

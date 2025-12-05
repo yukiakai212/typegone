@@ -9,7 +9,7 @@ import { runTypegone } from './runner.js';
     const config = await loadTypegoneConfig();
     if (config.verbose) enableVerbose();
     await runTypegone(config);
-  } catch (e) {
+  } catch (e: any) {
     logger.error(e.message);
   }
 })();
