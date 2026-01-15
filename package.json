@@ -1,6 +1,6 @@
 {
   "name": "typegone",
-  "version": "1.2.2",
+  "version": "1.2.4",
   "description": "Convert TypeScript to plain JavaScript by stripping all types and JSDoc annotations.",
   "type": "module",
   "main": "./dist/index.js",
@@ -34,6 +34,7 @@
   ],
   "author": "Yuki_akai",
   "homepage": "https://github.com/yukiakai212/typegone",
+  "funding": "https://github.com/sponsors/yukiakai212",
   "engines": {
     "node": ">= 16"
   },

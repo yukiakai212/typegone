@@ -1,4 +1,4 @@
-# 🧨 typegone
+# typegone
 
 [![NPM Version][npm-version-image]][npm-url]
 [![NPM Downloads][npm-downloads-image]][npm-downloads-url]
@@ -14,7 +14,7 @@ It can also **add `any` to untyped JavaScript parameters**, effectively converti
 
 ---
 
-## 🚀 Features
+## Features
 
 - ✅ Replace all existing type annotations (`: string`, `: number`, etc.) with `any`
 - ✅ Add `: any` to untyped function parameters
@@ -27,7 +27,7 @@ It can also **add `any` to untyped JavaScript parameters**, effectively converti
 
 ---
 
-## 🔧 Usage
+## Usage
 
 ### 1. Install
 
@@ -43,7 +43,7 @@ TypeGone will automatically detect a configuration file named `typegone.config` 
 
 - `.ts`, `.js`, `.cjs`, `.mjs`
 
-> 📍 **Important**: This file must be located at the **root of your project** (next to your `package.json`).
+> **Important**: This file must be located at the **root of your project** (next to your `package.json`).
 
 For example:
 - `typegone.config.ts`
@@ -57,7 +57,7 @@ You can define your config using either:
 
 ---
 
-#### ✅ Example: `typegone.config.js` (ESM)
+#### Example: `typegone.config.js` (ESM)
 
 ##### Using `defineTypegoneConfig` (recommended)
 
@@ -85,7 +85,7 @@ export default {
 
 ---
 
-#### ✅ Example: `typegone.config.cjs` (CommonJS)
+#### Example: `typegone.config.cjs` (CommonJS)
 
 ##### Using `defineTypegoneConfig`
 
@@ -120,7 +120,7 @@ npx typegone
 
 ---
 
-## 🧪 Example
+## Example
 
 ### Before:
 
@@ -158,7 +158,7 @@ function greet(name: any): any {
 
 ---
 
-## ⚙️ Configuration Options
+## Configuration Options
 
 | Option             | Type      | Description                                                                  |
 |--------------------|-----------|------------------------------------------------------------------------------|
@@ -174,7 +174,7 @@ function greet(name: any): any {
 
 ---
 
-## 🤔 Why would you use this?
+## Why would you use this?
 
 - Migrate a legacy JavaScript project to TypeScript **with permissive `any` everywhere** (for gradual typing).
 - Convert a TypeScript codebase back to plain JavaScript **for faster prototyping or delivery**.
@@ -184,13 +184,13 @@ function greet(name: any): any {
 
 ---
 
-## 📦 Changelog
+## Changelog
 
 See full release notes in [CHANGELOG.md][changelog-url]
 
 ---
 
-## 📄 License
+## License
 
 MIT © 2025 — Made with ❤️ by [@yukiakai](https://github.com/yukiakai212)
 
