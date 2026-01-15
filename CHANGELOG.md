@@ -1,5 +1,11 @@
 # typegone
 
+## 1.2.5
+
+### Patch Changes
+
+- ac422a0: Using Trusted Publisher
+
 ## 1.2.2
 
 ### Patch Changes
